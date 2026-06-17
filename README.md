@@ -1,5 +1,5 @@
-# python_codingtest
-PCCE/PCCP 시험 준비를 위한 공부 기록용 레파지토리입니다. 
+# certificate_coding
+정보처리기사/PCCE/PCCP 등 코딩 관련 자격증 시험 준비를 위한 코드 공부 기록용 레파지토리입니다. 
 
 
 
