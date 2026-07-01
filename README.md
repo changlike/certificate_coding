@@ -65,3 +65,43 @@ else:
 
 
 ## 2차원 배열 
+
+
+
+[파이썬 코테 풀면서 핵심 문법 정리하기]
+
+## 대소문자 변환
+"Hello World"
+
+.lower()      → "hello world"   # 전부 소문자
+.upper()      → "HELLO WORLD"   # 전부 대문자
+.swapcase()   → "hELLO wORLD"   # 대↔소 뒤집기
+.capitalize() → "Hello world"   # 첫 글자만 대문자
+.title()      → "Hello World"   # 단어마다 첫 글자 대문자
+```
+
+
+```python
+## 백슬래시 출력
+
+# 방법1. 백슬래시 두 개
+print("\\")     # → \
+print("\\'")    # → \'
+
+# 방법2. r 붙이기 (raw string)
+print(r"\n")    # → \n
+print(r"\'")    # → \'
+
+# 비교
+print("\n")     # → 줄바꿈 실행됨
+print(r"\n")    # → \n 그대로 출력
+```
+
+**핵심**
+- `\` 는 원래 특수기능 문자 (`\n` 줄바꿈, `\t` 탭 등)
+- 문자 그대로 출력 → `\\` 또는 앞에 `r` 붙이기
+
+
+
+
+
